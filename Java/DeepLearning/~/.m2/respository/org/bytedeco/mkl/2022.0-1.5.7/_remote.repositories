@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Aug 24 14:30:13 CST 2025
+mkl-2022.0-1.5.7-linux-x86.jar>nexus=
+mkl-2022.0-1.5.7-linux-x86_64.jar>nexus=
+mkl-2022.0-1.5.7-macosx-x86_64.jar>nexus=
+mkl-2022.0-1.5.7-windows-x86.jar>nexus=
+mkl-2022.0-1.5.7-windows-x86_64.jar>nexus=
+mkl-2022.0-1.5.7.jar>nexus=
+mkl-2022.0-1.5.7.pom>nexus=

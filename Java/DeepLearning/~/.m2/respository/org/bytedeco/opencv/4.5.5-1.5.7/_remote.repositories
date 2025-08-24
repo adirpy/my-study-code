@@ -1,0 +1,19 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Aug 24 14:30:13 CST 2025
+opencv-4.5.5-1.5.7-android-arm.jar>nexus=
+opencv-4.5.5-1.5.7-android-arm64.jar>nexus=
+opencv-4.5.5-1.5.7-android-x86.jar>nexus=
+opencv-4.5.5-1.5.7-android-x86_64.jar>nexus=
+opencv-4.5.5-1.5.7-ios-arm64.jar>nexus=
+opencv-4.5.5-1.5.7-ios-x86_64.jar>nexus=
+opencv-4.5.5-1.5.7-linux-arm64.jar>nexus=
+opencv-4.5.5-1.5.7-linux-armhf.jar>nexus=
+opencv-4.5.5-1.5.7-linux-ppc64le.jar>nexus=
+opencv-4.5.5-1.5.7-linux-x86.jar>nexus=
+opencv-4.5.5-1.5.7-linux-x86_64.jar>nexus=
+opencv-4.5.5-1.5.7-macosx-arm64.jar>nexus=
+opencv-4.5.5-1.5.7-macosx-x86_64.jar>nexus=
+opencv-4.5.5-1.5.7-windows-x86.jar>nexus=
+opencv-4.5.5-1.5.7-windows-x86_64.jar>nexus=
+opencv-4.5.5-1.5.7.jar>nexus=
+opencv-4.5.5-1.5.7.pom>nexus=

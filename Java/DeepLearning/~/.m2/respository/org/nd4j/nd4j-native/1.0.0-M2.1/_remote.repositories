@@ -1,0 +1,12 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Aug 24 14:30:13 CST 2025
+nd4j-native-1.0.0-M2.1-android-arm.jar>nexus=
+nd4j-native-1.0.0-M2.1-android-arm64.jar>nexus=
+nd4j-native-1.0.0-M2.1-android-x86.jar>nexus=
+nd4j-native-1.0.0-M2.1-android-x86_64.jar>nexus=
+nd4j-native-1.0.0-M2.1-linux-armhf.jar>nexus=
+nd4j-native-1.0.0-M2.1-linux-x86_64.jar>nexus=
+nd4j-native-1.0.0-M2.1-macosx-x86_64.jar>nexus=
+nd4j-native-1.0.0-M2.1-windows-x86_64.jar>nexus=
+nd4j-native-1.0.0-M2.1.jar>nexus=
+nd4j-native-1.0.0-M2.1.pom>nexus=
