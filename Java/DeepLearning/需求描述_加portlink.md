@@ -75,18 +75,27 @@
 * SEQ：当前管道在沿着光缆A到Z的方向经过的所有管道中的顺序
 * USAGE_RATE：当前光缆在当前管道中的占用率
 
-### edn_ai_link
+### edn_ai_link_splice
 
-连接表，表示设备端口和光缆纤芯的连接关系，注意，这里面A/Z没有方向性：
+熔接表，表示在设备上的光缆与光缆的连接关系，熔接动作的设备只为F_CLSOURE,
+注意，这里面A/Z没有方向性，请通过光缆的A/Z是否是当前设备来进行连接方向的判断：
 
 * RES_SPEC_ID：当前连接所在的设备类型
-* RES_ID：当前连接所在的设备的ID
-* A_RES_SPEC_ID：连接的A端资源，可能为设备，也可能为光缆
-* A_RES_ID：连接的A端资源的ID
-* A_NO：A端连接的端口或者纤芯的序号
-* Z_RES_SPEC_ID：连接的Z端资源，可能为设备，也可能为光缆
-* Z_RES_ID：连接的Z端资源的ID
-* Z_NO：Z端连接的端口或者纤芯的序号
+* DEVICE_ID：当前连接所在的设备的ID
+* A_CABLE_ID：连接的A端光缆的ID
+* A_CORE_NO：A端连接纤芯的序号
+* Z_CABLE_ID：连接的Z端光缆的ID
+* Z_CORE_NO：Z端连接纤芯的序号
+
+### edn_ai_link_termination
+
+成端表，表示在设备上的光缆与设备的端口连接关系，成端动作的设备只为ODB/ODF
+
+* RES_SPEC_ID：当前连接所在的设备类型
+* DEVICE_ID：当前连接所在的设备的ID
+* PORT_NO：设备连接端口的序号
+* CABLE_ID：连接的光缆的ID
+* CORE_NO：连接纤芯的序号
 
 ### edns_ai_cost_conf
 
